@@ -2,5 +2,5 @@ import type { VueConstructor } from 'vue';
 import HelloWorld from './HelloWorld.vue';
 
 export default function install(Vue: VueConstructor): void {
-  Vue.component(HelloWorld.name, HelloWorld);
+  Vue.component('HelloWorld', HelloWorld);
 }
